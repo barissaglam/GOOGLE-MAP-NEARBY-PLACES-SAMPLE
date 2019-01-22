@@ -144,7 +144,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     myMarkerOpt.title("My Location");
                     myMarkerOpt.snippet("TDG Bilişim");
                     myMarkerOpt.icon(BitmapDescriptorFactory.
-                            fromResource(R.drawable.marker_my));
+                            fromResource(R.drawable  .marker_my));
                     myMarkerOpt.position(latLng);
                     mMap.addMarker(myMarkerOpt);
                     // This loop will go through all the results and add marker on each location.
